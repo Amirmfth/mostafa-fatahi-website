@@ -37,12 +37,12 @@ export default function RootLayout({ children }) {
     <html lang="fa" dir="rtl">
       <head>
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="title" content="مصطفى فتاحی | کارشناس رسمی دادگستری تهران" />
-        <link
-          rel="description"
+
+        <meta
+          name="description"
           content="مصطفى فتاحي کارشناس رسمی دادگستری تهران"
         />
-        <link rel="author" content="amir mohammad fatahi" />
+        <meta name="author" content="amir mohammad fatahi" />
         <link
           rel="shortcut icon"
           href="/favicon-modified.png"
@@ -50,6 +50,7 @@ export default function RootLayout({ children }) {
         />
         <link rel="icon" href="/favicon-modified.png" type="image/x-icon" />
         <meta name="robots" content="index, follow" />
+        <title>مصطفى فتاحی | کارشناس رسمی دادگستری تهران</title>
       </head>
       <body className="font-iranyekan">
         <Header />

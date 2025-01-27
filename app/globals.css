@@ -65,3 +65,9 @@ body {
 }
 
 
+#about-me-main {
+ background-image: url("/assets/images/banner-bg.png");
+ background-size: cover;
+ background-position: center;
+}
+

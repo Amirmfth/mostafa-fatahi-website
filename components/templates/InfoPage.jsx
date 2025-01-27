@@ -6,8 +6,10 @@ function InfoPage() {
   const [pdf, setPdf] = useState("faq1");
   return (
     <div
-      className="flex pt-16 md:pt-[182px] h-screen  "
-      style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
+      className="flex pt-16 md:pt-[182px] min-h-screen  "
+      style={{
+        backgroundImage: "url('/assets/images/banner-bg.png'",
+      }}
     >
       {/* Sidebar */}
       <div className="w-52 flex flex-col h-full font-bold bg-light-green md:w-72 md:text-xl">

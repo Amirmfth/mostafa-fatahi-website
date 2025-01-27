@@ -4,9 +4,13 @@ import React from "react";
 function AboutMePage() {
   return (
     <div
-      className="flex flex-col justify-between pt-16  h-screen font-iranyekan md:pl-40 md:pt-48 md:flex-row "
-      style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
+      className="flex flex-col justify-between pt-16  h-screen font-iranyekan md:pl-40 md:pt-48 md:flex-row  "
+      // style={{
+      //   backgroundImage: "url('/assets/images/banner-bg.png'",
+      // }}
+      id="about-me-main"
     >
+      
       <div className="flex flex-col space-y-4 mr-10 mt-5 mb-10 md:mt-20 md:pl-40">
         <h2 className="text-3xl font-bold">
           مصطفی فتاحی <br /> کارشناس رسمی راه و ساختمان

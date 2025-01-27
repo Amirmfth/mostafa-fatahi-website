@@ -5,7 +5,7 @@ function ArticlesPage() {
   const [pdf, setPdf] = useState("article1");
   return (
     <div
-      className="flex pt-16 h-screen md:pt-[182px]  "
+      className="flex pt-16 min-h-screen md:pt-[182px]  "
       style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
     >
       {/* Sidebar */}

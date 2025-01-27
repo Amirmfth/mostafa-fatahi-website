@@ -4,11 +4,11 @@ import React from "react";
 function HomePage() {
   return (
     <div
-      className="flex flex-col pt-16 h-screen md:pt-48 md:flex-row  "
+      className="flex flex-col pt-16 min-h-screen md:pt-48 md:flex-row  "
       style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
     >
       <Image
-        src={"/assets/images/profile-image.jpg"}
+        src={"/assets/images/profile-Image.jpg"}
         height={1000}
         width={700}
         alt="profile"
