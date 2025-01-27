@@ -4,8 +4,8 @@ function MobileMenu({ openMenu, setOpenMenu }) {
   return (
     <div
       className={`fixed inset-0 z-20 md:hidden ${
-        openMenu ? "flex h-[93vh]" : "hidden h-0"
-      } flex-col items-center self-end w-full px-6 py-20 space-y-2  duration-300`}
+        openMenu ? "flex h-screen" : "hidden h-0"
+      } flex-col items-center self-end w-full mt-16 px-6 py-20 space-y-2  duration-300`}
       style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
     >
       {/* Item 1 */}

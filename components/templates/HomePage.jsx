@@ -4,7 +4,7 @@ import React from "react";
 function HomePage() {
   return (
     <div
-      className="flex flex-col pt-16 min-h-screen md:pt-48 md:flex-row  "
+      className="flex flex-col pt-16 h-screen md:pt-48 md:flex-row  "
       style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
     >
       <Image
@@ -12,7 +12,7 @@ function HomePage() {
         height={1000}
         width={700}
         alt="profile"
-        className="w-72 mx-auto md:w-[480px] md:ml-20 md:mx-0 h-fit"
+        className="w-72 mx-auto md:w-[30%] md:ml-20 md:mx-5 h-fit"
       />
       <div className="flex flex-col p-2 items-start font-iranyekan mt-10 max-h-[600px] overflow-y-scroll scrollbar-custom  ">
         <h2 className="text-2xl font-bold mb-6">صالحیت های کارشناسی</h2>

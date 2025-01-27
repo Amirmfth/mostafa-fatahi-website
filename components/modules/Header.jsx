@@ -33,7 +33,7 @@ function Header() {
     <header className="fixed w-full flex flex-col items-start divide-y-4 divide-dark-brown bg-light-green z-50 ">
       <HamburgerBtn setOpenMenu={setOpenMenu} openMenu={openMenu} />
       <Image
-        className="h-16 md:h-32 self-center"
+        className="h-16 md:h-24 self-center"
         src={imageSrc}
         alt="banner"
         priority

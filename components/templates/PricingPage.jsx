@@ -5,7 +5,7 @@ function PricingPage() {
   const [pdf, setPdf] = useState("changes");
   return (
     <div
-      className="flex pt-16 h-screen md:pt-[182px]  "
+      className="flex pt-16 h-screen md:pt-36  "
       style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
     >
       {/* Sidebar */}
