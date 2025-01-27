@@ -1,9 +1,9 @@
+import HomePage from "@/components/templates/HomePage";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>مصطفى فتاحي</h1>
-      <p>کارشناس رسمی دادگستری تهران</p>
+    <main>
+      <HomePage />
     </main>
   );
 }

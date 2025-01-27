@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+
+Sitemap: https://mostafa-fatahi.ir/sitemap.xml

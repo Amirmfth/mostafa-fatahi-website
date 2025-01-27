@@ -8,8 +8,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "dark-brown": "#6c584c",
+        "light-brown": "#a98467",
+        "dark-green": "#adc178",
+        "light-green": "#dde5b6",
+        cream: "#f0ead2",
+      },
+      fontFamily: {
+        iranyekan: ["Iranyekan", "sans-serif"],
       },
     },
   },
