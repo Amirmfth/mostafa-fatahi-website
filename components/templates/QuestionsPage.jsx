@@ -55,7 +55,7 @@ function QuestionsPage() {
 
   return (
     <div
-      className="flex flex-col pt-16 h-screen md:pt-52 bg-gradient-to-br from-blue-500  to-blue-200 "
+      className="flex flex-col pt-16 min-h-screen md:pt-52 bg-gradient-to-br from-blue-500  to-blue-200 "
       // style={{ backgroundImage: "url('/assets/images/banner-bg.png'" }}
     >
       {questions.map((question) => (
